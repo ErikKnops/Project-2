@@ -4,17 +4,23 @@ html {
 
 }
 
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
 head {
 
 }
 
 body {
-  margin: 0 auto;
-  padding: 0;
+
 }
 
 header {
-
+  width: 100vw;
+  height: 20vh;
+  background-color: red;
 }
 
 main {
@@ -22,5 +28,35 @@ main {
 }
 
 footer {
-  
+
+}
+
+.logo {
+  float: left;
+  margin-top: 1vh;;
+  margin-left: 3vw;
+  width: 12vw;
+}
+
+.balk {
+  float: right;
+  margin-top: 4vh;
+  margin-right: 0vw;
+  background-color: #524264;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 80vw;
+  height: 10vh;
+}
+
+li a {
+  text-decoration: none;
+  color: #F0E256;
+  font-size: 200%;
+  margin-left: 5vw;
+}
+
+li {
+  display: inline;
+  margin-top: 3vh; 
 }
