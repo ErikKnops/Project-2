@@ -14,7 +14,8 @@ head {
 }
 
 body {
-
+  background-image: url(../imgall/bg.png);
+  background-size: cover;
 }
 
 header {
