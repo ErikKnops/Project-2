@@ -14,7 +14,7 @@ body {
 }
 
 header {
-
+  
 }
 
 main {
@@ -22,5 +22,31 @@ main {
 }
 
 footer {
-  
+  background-color: rgb(81, 52, 104);
+  padding: 0;
+  text-align: center;
 }
+
+.twitter{
+  height: 55px;
+  width: 70px;
+  float: right;
+}
+
+.insta{
+  height: 55px;
+  width: 55px;
+  float: right;  
+}
+
+.facebook{
+  height: 55px;
+  width: 55px;
+  float: right;
+}
+
+h3{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
