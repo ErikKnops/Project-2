@@ -68,3 +68,23 @@ nav {
 a:hover {
   color: white;
 }
+
+.txt-vak {
+  background-color: #524264;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 30vw;
+  height: 20vh;
+  text-align: center;
+}
+
+h1 {
+  color: #F0E256;
+  font-size: 200%;
+}
+
+p {
+  margin-top: 5%;
+  color: white;
+  font-size: 150%;
+}
