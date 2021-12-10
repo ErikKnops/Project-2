@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+html {
+
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+head {
+
+}
+
+body {
+
+}
+
+header {
+  width: 100vw;
+  height: 20vh;
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+.logohead {
+  position: fixed;
+  width: 200px;
+  top: 1%;
+  left: 5%;
+}
+
+.balkhead {
+  position: fixed;
+  top: 5%;
+  right: 1%;
+  background-color: #524264;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 70%;
+  height: 10%;
+}
+
+li a {
+  text-decoration: none;
+  color: #F0E256;
+  font-size: 200%;
+  text-align: center;
+  margin-left: 4vw;
+}
+
+li {
+  display: inline;
+}
+
+nav {
+    margin-top: 2vh;
+}
+
+a:hover {
+  color: white;
+}
