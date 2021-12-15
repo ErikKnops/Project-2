@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 html {
-
 }
 
 * {
@@ -10,7 +9,6 @@ html {
 }
 
 head {
-
 }
 
 body {
@@ -24,11 +22,9 @@ header {
 }
 
 main {
-
 }
 
 footer {
-
 }
 
 .logohead {
@@ -52,7 +48,7 @@ footer {
 
 li a {
   text-decoration: none;
-  color: #F0E256;
+  color: #f0e256;
   font-size: 200%;
   text-align: center;
   margin-left: 4vw;
@@ -63,7 +59,7 @@ li {
 }
 
 nav {
-    margin-top: 2vh;
+  margin-top: 2vh;
 }
 
 a:hover {
@@ -136,4 +132,35 @@ a:hover {
     top: 0;
     left: 0;
   }
+}
+
+table,
+th,
+td {
+  border: 1px solid yellow;
+  color: yellow;
+  background-color: purple;
+  text-align: center;
+}
+
+.table0 {
+  margin: 4% 45% 5% 0%;
+}
+
+#table1 th:nth-child(n + 2) {
+  min-width: 11.6vw;
+}
+
+#table1 {
+  margin: -10% 0% 0% 39%;
+}
+
+td:hover {
+  background-color: palevioletred;
+}
+
+h1 {
+  color: yellow;
+  margin-left: 40%;
+  padding-bottom: 1%;
 }
