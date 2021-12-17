@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 html {
-
 }
 
 * {
@@ -10,7 +9,6 @@ html {
 }
 
 head {
-
 }
 
 body {
@@ -24,11 +22,13 @@ header {
 }
 
 main {
-
+  width: 100vw;
+  height: 60vh;
 }
 
 footer {
-
+  width: 100vw;
+  height: 20vh;
 }
 
 .logohead {
@@ -50,12 +50,11 @@ footer {
   height: 10%;
 }
 
-li a {
+a {
   text-decoration: none;
-  color: #F0E256;
+  color: #f0e256;
   font-size: 200%;
-  text-align: center;
-  margin-left: 4vw;
+  margin: 0% 3%;
 }
 
 li {
@@ -63,31 +62,12 @@ li {
 }
 
 nav {
-    margin-top: 2vh;
+  margin-top: 2vh;
+  text-align: center;
 }
 
 a:hover {
   color: white;
-}
-
-.txt-vak {
-  background-color: #524264;
-  border: 1px solid black;
-  border-radius: 25px;
-  width: 30vw;
-  height: 20vh;
-  text-align: center;
-}
-
-h1 {
-  color: #F0E256;
-  font-size: 200%;
-}
-
-p {
-  margin-top: 5%;
-  color: white;
-  font-size: 150%;
 }
 
 #burger {
