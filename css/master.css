@@ -140,6 +140,80 @@ a:hover {
     left: 0;
   }
 }
+.main-container {
+  padding: 30px;
+}
+
+/* HEADING */
+
+.heading {
+  text-align: center;
+}
+
+.heading__title {
+  font-weight: 600;
+}
+
+.heading__credits {
+  margin: 10px 0px;
+  color: #888888;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.heading__link {
+  text-decoration: none;
+}
+
+.heading__credits .heading__link {
+  color: inherit;
+}
+
+/* CARDS */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -200px;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  max-height: 180px;
+  display: grid;
+  grid-template-rows: 20px 90px 1fr 50px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.04);
+}
+
+.card__title {
+  grid-row: 3/4;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* CARD BACKGROUNDS */
+
+.card-1 {
+  background: radial-gradient(#cc92dd, #6e538d);
+}
+
+.card-2 {
+  background: radial-gradient(#cc92dd, #6e538d);
+}
+
+.card-3 {
+  background: radial-gradient(#cc92dd, #6e538d);
+}
 
 .slideshow {
   margin: 0 auto;
