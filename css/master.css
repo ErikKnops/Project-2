@@ -18,6 +18,22 @@ header {
 }
 
 main {
+<<<<<<< Updated upstream
+=======
+  width: 100vw;
+  height: 60vh;
+}
+
+footer {
+  background-color: rgb(81, 52, 104);
+  padding: 0;
+  text-align: center;
+  border: 10px black;
+  border-radius: 30px;
+  width: 50vw;
+  margin-left: 25vw;
+}
+>>>>>>> Stashed changes
 
 }
 
@@ -55,3 +71,97 @@ h3{
   font-family: 'Rubik', sans-serif;
 }
 
+<<<<<<< Updated upstream
+=======
+#burger {
+  display: none;
+}
+
+@media screen and (max-width: 479.9px) {
+  body {
+    background-image: url(../imgall/bgflip.png);
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 479.9px) {
+  body {
+    background-image: url(../imgall/bgflip.png);
+    background-size: cover;
+  }
+
+  .logohead {
+    position: fixed;
+    width: 150px;
+    top: 1%;
+    left: 5%;
+  }
+
+  li {
+    display: block;
+    text-align: center;
+  }
+
+  #balkhead {
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    display: none;
+    width: 40%;
+    height: 34%;
+  }
+
+  li a {
+    font-size: 170%;
+    text-align: center;
+    margin-left: 0vw;
+  }
+
+  #burger {
+    display: block;
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    background-color: #524264;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 4%;
+  }
+
+  #sluit {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.twitter{
+  height: 55px;
+  width: 70px;
+  float: right;
+}
+
+.insta{
+  height: 55px;
+  width: 55px;
+  float: right;  
+}
+
+.facebook{
+  margin-right: 3%;
+  height: 52px;
+  width: 50px;
+  float: right;
+}
+
+h3{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+>>>>>>> Stashed changes
