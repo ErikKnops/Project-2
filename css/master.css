@@ -1,27 +1,11 @@
 @charset "UTF-8";
 
-html {
-}
-
-* {
-  margin: 0 auto;
-  padding: 0;
-}
-
-head {
-}
-
 body {
   background-image: url(../imgall/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 0% 50%;
-}
-
-header {
-  width: 100vw;
-  height: 20vh;
 }
 
 main {
@@ -60,8 +44,10 @@ a {
   margin: 0% 3%;
 }
 
-li {
-  display: inline;
+.twitter {
+  height: 55px;
+  width: 70px;
+  float: right;
 }
 
 nav {

@@ -23,6 +23,7 @@ header {
 
 main {
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 footer {
@@ -35,6 +36,15 @@ footer {
   width: 100vw;
   height: 20vh;
 >>>>>>> 294e74e8fc0bf775d53e97169e241f20aa3b3539
+=======
+  width: 100vw;
+  height: 60vh;
+}
+
+footer {
+  width: 100vw;
+  height: 20vh;
+>>>>>>> 57616c12b65385d6dce70317b842280e5f4dde24
 }
 
 .logohead {
