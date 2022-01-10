@@ -57,15 +57,15 @@ li a {
   color: #F0E256;
   font-size: 200%;
   text-align: center;
-  margin-left: 4vw;
+  margin-left: 3vw;
 }
 
 li {
   display: inline;
 }
 
-nav {
-    margin-top: 2vh;
+#navhead {
+    margin-top: 3vh;
 }
 
 a:hover {
@@ -74,13 +74,6 @@ a:hover {
 
 #burger {
   display: none;
-}
-
-@media screen and (max-width: 479.9px) {
-  body {
-    background-image: url(../imgall/bgflip.png);
-    background-size: cover;
-  }
 }
 
 @media screen and (max-width: 479.9px) {
@@ -107,13 +100,14 @@ a:hover {
     right: 3%;
     display: none;
     width: 40%;
-    height: 34%;
+    height: 29%;
   }
 
   li a {
     font-size: 170%;
     text-align: center;
     margin-left: 0vw;
+    padding: 1% 0% 1% 0%;
   }
 
   #burger {
@@ -137,5 +131,42 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  body {
+    background-image: url(../imgall/bgflip.png);
+    background-size: cover;
+  }
+
+  #balkhead {
+    display: block;
+    position: fixed;
+    top: 5%;
+    right: 1%;
+    background-color: #524264;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 60%;
+    height: 15%;
+  }
+
+  #navhead {
+    margin: 5% 0% 0% 3%;
+  }
+}
+
+@media screen and (max-width: 1278.9px) {
+  li a {
+    text-decoration: none;
+    color: #F0E256;
+    font-size: 200%;
+    text-align: center;
+    margin-left: 4%;
+  }
+
+  #navhead {
+    margin: 4% 0% 0% 2%;
   }
 }

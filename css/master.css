@@ -4,66 +4,76 @@ html {
 
 }
 
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
 head {
 
 }
 
 body {
-  margin: 0 auto;
-  padding: 0;
+  background-image: url(../imgall/bg.png);
+  background-size: cover;
 }
 
 header {
-  
+  width: 100vw;
+  height: 20vh;
 }
 
 main {
-
+  width: 100vw;
+  height: 60vh;
 }
 
 footer {
-  background-color: rgb(81, 52, 104);
-  padding: 0;
+  width: 100vw;
+  height: 20vh;
+}
+
+.logohead {
+  position: fixed;
+  width: 200px;
+  top: 1%;
+  left: 5%;
+}
+
+#balkhead {
+  display: block;
+  position: fixed;
+  top: 5%;
+  right: 1%;
+  background-color: #524264;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 70%;
+  height: 10%;
+}
+
+li a {
+  text-decoration: none;
+  color: #F0E256;
+  font-size: 200%;
   text-align: center;
-  border: 10px black;
-  border-radius: 30px;
-  width: 50vw;
-  margin-left: 25vw;
+  margin-left: 3vw;
 }
 
-.twitter{
-  height: 55px;
-  width: 70px;
-  float: right;
+li {
+  display: inline;
 }
 
-.insta{
-  height: 55px;
-  width: 55px;
-  float: right;  
+#navhead {
+    margin-top: 3vh;
 }
 
-.facebook{
-  margin-right: 3%;
-  height: 52px;
-  width: 50px;
-  float: right;
-}
-
-h3{
+a:hover {
   color: white;
-  font-family: 'Rubik', sans-serif;
 }
 
 #burger {
   display: none;
-}
-
-@media screen and (max-width: 479.9px) {
-  body {
-    background-image: url(../imgall/bgflip.png);
-    background-size: cover;
-  }
 }
 
 @media screen and (max-width: 479.9px) {
@@ -90,13 +100,14 @@ h3{
     right: 3%;
     display: none;
     width: 40%;
-    height: 34%;
+    height: 29%;
   }
 
   li a {
     font-size: 170%;
     text-align: center;
     margin-left: 0vw;
+    padding: 1% 0% 1% 0%;
   }
 
   #burger {
@@ -123,26 +134,39 @@ h3{
   }
 }
 
-.twitter{
-  height: 55px;
-  width: 70px;
-  float: right;
+@media screen and (max-width: 767.9px) {
+  body {
+    background-image: url(../imgall/bgflip.png);
+    background-size: cover;
+  }
+
+  #balkhead {
+    display: block;
+    position: fixed;
+    top: 5%;
+    right: 1%;
+    background-color: #524264;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 60%;
+    height: 15%;
+  }
+
+  #navhead {
+    margin: 5% 0% 0% 3%;
+  }
 }
 
-.insta{
-  height: 55px;
-  width: 55px;
-  float: right;  
-}
+@media screen and (max-width: 1278.9px) {
+  li a {
+    text-decoration: none;
+    color: #F0E256;
+    font-size: 200%;
+    text-align: center;
+    margin-left: 4%;
+  }
 
-.facebook{
-  margin-right: 3%;
-  height: 52px;
-  width: 50px;
-  float: right;
-}
-
-h3{
-  color: white;
-  font-family: 'Rubik', sans-serif;
+  #navhead {
+    margin: 4% 0% 0% 2%;
+  }
 }
