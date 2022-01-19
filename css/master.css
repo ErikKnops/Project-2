@@ -90,7 +90,7 @@ footer {
 }
 
 .icon {
-  width: 5vw;
+  width: 50px;
   margin-left: 1vw;
 }
 
@@ -115,7 +115,7 @@ footer {
 }
 
 #navfoot {
-  margin: 1vh 1vw;
+  margin: 2vh 1vw;
   float: right;
 }
 
@@ -222,8 +222,16 @@ footer {
   }
 
   .icon {
-    width: 6vw;
+    width: 50px;
     margin-left: 1vw;
+  }
+
+  #burger {
+    display: none;
+  }
+
+  #sluit {
+    display: none;
   }
 }
 
