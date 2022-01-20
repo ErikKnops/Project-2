@@ -43,12 +43,53 @@ main {
   background-color: var(--paars);
   border: 1px solid black;
   border-radius: 25px;
-  height: 60vh;
-  width: 40vw;
+  height: 56vh;
+  width: 36vw;
   margin-left: 6vw;
   margin-top: 3vh;
+  padding: 2vw;
 }
 
 .rev {
   margin-left: 7vw;
+}
+
+.revpage h1 {
+  color: var(--geel);
+  font-size: 300%;
+}
+
+.userinfo label {
+  margin-top: 1vh;
+  color: white;
+  font-size: 200%;
+}
+
+.userinfo input {
+  margin-top: 1vh;
+  width: 35vw;
+  height: 3vh;
+  background-color: var(--lichtpaars);
+  border: 1px solid black;
+}
+
+.rev .veld {
+  margin-top: 1vh;
+  width: 35vw;
+  background-color: var(--lichtpaars);
+  border: 1px solid black;
+  font-size: 130%;
+}
+
+.rev label {
+  font-size: 110%;
+}
+
+.rev .bev {
+  background-color: var(--geel);
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 10vw;
+  height: 5vh;
+  font-size: 150%;
 }

@@ -68,11 +68,28 @@
       </section>
 
       <section class="info revpage">
-
+        <h1>Informatie</h1>
+        <form class="userinfo" action="#" method="post">
+          <label>Naam/Gametag</label><br>
+          <input type="text" name="naam" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required><br>
+          <label>E-mail</label><br>
+          <input type="email" name="email" required><br>
+          <label>Spel</label><br>
+          <input type="text" name="spel" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required><br>
+          <label>Datum</label><br>
+          <input type="date" name="datum" required><br>
+          <label>Rating</label><br>
+        </form>
       </section>
 
       <section class="rev revpage">
-
+        <h1>Review</h1>
+        <form class="userinfo" action="#" method="post">
+          <input class="veld" type="text" name="review" required><br>
+          <input type="checkbox" name="akoord" required>
+          <label class="akoord">Je gaat akoord met het publiceren van de review.</label>
+          <input class="bev" type="submit" value="Submit" name="sub">
+        </form>
       </section>
     </main>
 
