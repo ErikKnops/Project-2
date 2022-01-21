@@ -79,6 +79,7 @@ main {
   background-color: var(--lichtpaars);
   border: 1px solid black;
   font-size: 130%;
+  resize: none;
 }
 
 .rev label {
@@ -92,4 +93,30 @@ main {
   width: 10vw;
   height: 5vh;
   font-size: 150%;
+  float: right;
+}
+
+.rev .ako {
+  width: 3vw;
+  float: left;
+}
+
+.rev .akoord {
+  width: 15vw;
+  float: left;
+}
+
+.star {
+  background-color: var(--lichtpaars);
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  float: left;
+  text-align: center;
+}
+
+.star img {
+  width: 30px;
+  margin-top: 1vh;
 }
