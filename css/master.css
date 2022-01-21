@@ -55,12 +55,32 @@ nav {
   text-align: center;
 }
 
+li a {
+  text-decoration: none;
+  color: #f0e256;
+  font-size: 200%;
+  text-align: center;
+  margin-left: 4vw;
+}
+
+li {
+  display: inline;
+}
+
+nav {
+  margin-top: 2vh;
+}
+
 a:hover {
   color: white;
 }
 
 #burger {
   display: none;
+}
+
+.slideshow {
+  margin-bottom: 300px;
 }
 
 @media screen and (max-width: 479.9px) {
@@ -186,8 +206,6 @@ a:hover {
   font-weight: 400;
   color: #ffffff;
 }
-
-/* CARD BACKGROUNDS */
 
 .card-1 {
   background: radial-gradient(#cc92dd, #6e538d);
