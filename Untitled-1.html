@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="language" content="NL">
+    <meta name="viewport" content="width=device-width, initail-scale=1">
+    <meta name="description" content="Project2Overons">
+    <meta name="author" content="Erik Knöps, Jarno van der Plas, Sem Verhoeven, Bartek Budz">
+    <meta name="keywords" content="GameStars, Reviews"> 
+    <link rel="stylesheet" type="text/css" href="css/formulier">
+<header>
+    <article id="show" onClick="showInLog()"><h1>inloggen</h1></article>
+    <article id="disappear" onClick="disappearInLog()"><h1>uitloggen</h1></article>
+</header>
+<main>
+    <script>
+        function showInLog(){
+            document.getElementById("formulier").style.display= "block";
+            document.getElementById("show").style.display= "none";
+            document.getElementById("disappear").style.display= "block";
+        }
+        function disappearInLog(){
+            document.getElementById("formulier").style.display= "none";
+            document.getElementById("show").style.display= "none";
+            document.getElementById("disappear").style.display= "block";
+        }
+    </script>
+    
+    <h1>Formulier</h1>
+    <section id="formulier">
+      <form action="#">
+        <table>
+          <tr><td>Voornaam</td><td><input type="text" name="Voornaam" placeholder="type here your firstnaam."></td></tr>
+          <tr><td>Achternaam</td><td><input type="text" name="Achtrenaam" placeholder="type here your lastnaam."></td></tr>
+          <tr><td>E-mail</td><td><input type="text" name="E-mail" placeholder="type here your E-mail."></td></tr>
+          <select name="topic">
+            <option value="Ik heb een vraag">ik heb een vraag</option>
+            <option value="Ik heb een opmerking">ik heb een opmerking</option>
+            <option value="Ik wil een game aanraden">ik wil een game aanraden</option>
+            <option value="Ik wil een compliment geven">ik wil een compliment geven</option>
+          </select>
+          <tr><td>Bericht</td><td><input type="text" name="Bericht" placeholder="type here your message."></td></tr>
+          <tr><td><input type="submit" value="inloggen"></td></tr>
+        </table>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+      <h1>jiijijij</h1>
+  </footer>
+
+  (css)
+  form {
+      width: 40vw;
+      height: 50vh;
+      border: 1px solid blue;
+      position: fixed;
+      top: 20vh;
+      right: 30vw;
+      padding: 1vh 1vw;
+      back-groundcolor: #524264;
+  }
+
+  form input {
+      width: vw30;
+      height: 20vh;
+      margin-top: 4vh;
+      margin-left: 5vw;
+      fon-size: 2rem;
+      text-align: center;
+  }

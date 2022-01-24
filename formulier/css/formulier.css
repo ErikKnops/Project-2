@@ -1,0 +1,25 @@
+html{
+}
+
+body{
+    background-color: #524264;
+}
+
+form {
+    width: 40vw;
+    height: 50vh;
+    border: 1px solid blue;
+    position: fixed;
+    top: 20vh;
+    right: 30vw;
+    padding: 1vh 1vw;
+}
+
+form input {
+    width: vw30;
+    height: 20vh;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    fon-size: 2rem;
+    text-align: center;
+}
