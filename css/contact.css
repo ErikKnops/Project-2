@@ -1,2 +1,40 @@
 @charset "UTF-8";
 @import url('vars.css');
+
+html{
+}
+
+body{
+    background-color: #524264;
+}
+
+form {
+    width: 40vw;
+    height: 50vh;
+    position: fixed;
+    top: 20vh;
+    right: 30vw;
+    padding: 1vh 1vw;
+}
+
+form input {
+    margin-top: 4vh;
+    margin-left: 5vw;
+    font-size: 2rem;
+    text-align: center;
+}
+form textarea {
+  margin-left: 5vw;
+}
+
+form select {
+  width: 31vw;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    font-size: 2rem;
+    text-align: center;
+}
+#formulier h1 {
+  text-align: center;
+  font-size: 300%;
+}
