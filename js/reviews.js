@@ -1,5 +1,3 @@
 function star1func() {
-  document.getElementsByClassName('star1').style.color = "var(--geel)";
+  document.getElementById('star1').style.backgroundColor = "var(--geel)";
 }
-
-document.getElementByClassName('star1').addEventListener('mouseover', star1func);
