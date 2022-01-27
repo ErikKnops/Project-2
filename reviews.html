@@ -79,14 +79,35 @@
           <label>Datum</label><br>
           <input type="date" name="datum" required><br>
           <label>Rating</label><br>
+          <section class="rating">
+            <figure class="star" id="star1">
+              <img src="imgall/star.png" alt="star" onclick="star1func">
+            </figure>
+
+            <figure class="star" id="star1">
+              <img src="imgall/star.png" alt="star">
+            </figure>
+
+            <figure class="star" id="star1">
+              <img src="imgall/star.png" alt="star">
+            </figure>
+
+            <figure class="star" id="star1">
+              <img src="imgall/star.png" alt="star">
+            </figure>
+
+            <figure class="star" id="star1">
+              <img src="imgall/star.png" alt="star">
+            </figure>
+          </section>
         </form>
       </section>
 
       <section class="rev revpage">
         <h1>Review</h1>
         <form class="userinfo" action="#" method="post">
-          <input class="veld" type="text" name="review" required><br>
-          <input type="checkbox" name="akoord" required>
+          <textarea class="veld" cols="1" rows="18" name="review" required></textarea><br>
+          <input class="ako" type="checkbox" name="akoord" required>
           <label class="akoord">Je gaat akoord met het publiceren van de review.</label>
           <input class="bev" type="submit" value="Submit" name="sub">
         </form>
@@ -114,4 +135,5 @@
   </body>
 
   <script src="js/master.js"></script>
+  <script src="js/reviews.js"></script>
 </html>
