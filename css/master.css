@@ -18,11 +18,6 @@ head {
 
 }
 
-body {
-  background-image: url(../imgall/bg.png);
-  background-size: cover;
-}
-
 header {
   width: var(--fullwidth);
   height: 20vh;
@@ -123,6 +118,8 @@ footer {
 #navfoot {
   margin: 2vh 1vw;
   float: right;
+}
+
 @media screen and (min-width: 480px) {
   body {
     background-image: url(../imgall/bgflip.png);
@@ -426,6 +423,8 @@ footer {
   #navfoot {
     margin: 1.5vh 1vw 0 0;
     float: right;
+  }
+
 .heading {
   text-align: center;
 }
@@ -455,7 +454,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: -50px;
 }
 
 .card {
@@ -496,7 +494,7 @@ footer {
 .slideshow {
   margin: 0 auto;
   padding-top: 10px;
-  height: 400px;
+  height: 35vh;
   perspective: 1000px;
 }
 
@@ -505,7 +503,7 @@ footer {
   width: 150px;
   perspective: 1250px;
   position: relative;
-  padding-top: 120px;
+  padding-top: 5vh;
   transform-style: preserve-3d;
 }
 .slider-content {
